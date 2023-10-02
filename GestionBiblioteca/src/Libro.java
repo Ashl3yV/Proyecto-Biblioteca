@@ -17,6 +17,16 @@ public class Libro implements InterfaceLibro {
 
     private List<Critica> criticas;
 
+    /**
+     * 
+     * @param titulo
+     * @param autor
+     * @param genero
+     * @param disponible
+     * @param categorias
+     * @param editoriales
+     * @param criticas 
+     */
     public Libro(String titulo, Autor autor, String genero, boolean disponible, List<Categoria> categorias, Editorial editoriales, List<Critica> criticas) {
         this.titulo = titulo;
         this.autor = autor;
@@ -34,6 +44,10 @@ public class Libro implements InterfaceLibro {
         return titulo;
     }
 
+    /**
+     * 
+     * @param titulo 
+     */
     @Override
     public void setTitulo(String titulo) {
         this.titulo = titulo;
@@ -44,6 +58,10 @@ public class Libro implements InterfaceLibro {
         return autor;
     }
 
+    /**
+     * 
+     * @param autor 
+     */
     @Override
     public void setAutor(Autor autor) {
         this.autor = autor;
@@ -53,6 +71,10 @@ public class Libro implements InterfaceLibro {
         return genero;
     }
 
+    /**
+     * 
+     * @param genero 
+     */
     public void setGenero(String genero) {
         this.genero = genero;
     }
@@ -61,6 +83,10 @@ public class Libro implements InterfaceLibro {
         return disponible;
     }
 
+    /**
+     * 
+     * @param disponible 
+     */
     public void setDisponible(boolean disponible) {
         this.disponible = disponible;
     }
@@ -69,6 +95,10 @@ public class Libro implements InterfaceLibro {
         return categorias;
     }
 
+    /**
+     * 
+     * @param categorias 
+     */
     public void setCategorias(List<Categoria> categorias) {
         this.categorias = categorias;
     }
@@ -77,6 +107,10 @@ public class Libro implements InterfaceLibro {
         return editoriales;
     }
 
+    /**
+     * 
+     * @param editoriales 
+     */
     public void setEditoriales(Editorial editoriales) {
         this.editoriales = editoriales;
     }
@@ -85,6 +119,10 @@ public class Libro implements InterfaceLibro {
         return criticas;
     }
 
+    /**
+     * 
+     * @param criticas 
+     */
     public void setCriticas(List<Critica> criticas) {
         this.criticas = criticas;
     }

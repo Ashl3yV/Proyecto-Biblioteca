@@ -1,3 +1,9 @@
+
+/**
+ * 
+ * @author Ashley Mendoza V
+ */
+
 public class Autor {
 
     private int id;
@@ -9,6 +15,12 @@ public class Autor {
     public Autor() {
     }
 
+    /**
+     * 
+     * @param id
+     * @param nombre
+     * @param nacionalidad 
+     */
     public Autor(int id, String nombre, String nacionalidad) {
         this.id = id;
         this.nombre = nombre;

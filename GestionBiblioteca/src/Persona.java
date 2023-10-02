@@ -13,6 +13,14 @@ public class Persona {
     public Persona() {
     }
 
+    /**
+     * 
+     * @param id
+     * @param nombre
+     * @param telefono
+     * @param correo
+     * @param direccion 
+     */
     public Persona(String id, String nombre, String telefono, String correo, String direccion) {
         this.id = id;
         this.nombre = nombre;
@@ -25,6 +33,10 @@ public class Persona {
         return id;
     }
 
+    /**
+     * 
+     * @param id 
+     */
     public void setId(String id) {
         this.id = id;
     }
@@ -33,6 +45,10 @@ public class Persona {
         return nombre;
     }
 
+    /**
+     * 
+     * @param nombre 
+     */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -41,6 +57,10 @@ public class Persona {
         return telefono;
     }
 
+    /**
+     * 
+     * @param telefono 
+     */
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
@@ -49,6 +69,10 @@ public class Persona {
         return correo;
     }
 
+    /**
+     * 
+     * @param correo 
+     */
     public void setCorreo(String correo) {
         this.correo = correo;
     }
@@ -57,6 +81,10 @@ public class Persona {
         return direccion;
     }
 
+    /**
+     * 
+     * @param direccion 
+     */
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }

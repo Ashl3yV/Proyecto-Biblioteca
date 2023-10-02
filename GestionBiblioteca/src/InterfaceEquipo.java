@@ -11,12 +11,24 @@
  */
 public interface InterfaceEquipo {
 
+    /**
+     * 
+     * @return 
+     */
     String getNombre();
 
     String getTipo();
 
+    /**
+     * 
+     * @param nombre 
+     */
     void setNombre(String nombre);
 
+    /**
+     * 
+     * @param tipo 
+     */
     void setTipo(String tipo);
     
     

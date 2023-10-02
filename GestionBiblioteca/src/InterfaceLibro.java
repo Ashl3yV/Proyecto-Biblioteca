@@ -11,12 +11,21 @@
  */
 public interface InterfaceLibro {
 
+    
     Autor getAutor();
 
     String getTitulo();
 
+    /**
+     * 
+     * @param autor 
+     */
     void setAutor(Autor autor);
 
+    /**
+     * 
+     * @param titulo 
+     */
     void setTitulo(String titulo);
     
 }
